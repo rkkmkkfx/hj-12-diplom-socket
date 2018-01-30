@@ -13,7 +13,7 @@ colors.sort(() => { return Math.random() > 0.5; } );
 let user;
 
 function getID() {
-  const id = Math.floor(Math.random()*90000) + 10000;git
+  const id = Math.floor(Math.random()*90000) + 10000;
   let el = online.findIndex(user => user.id === id);
   if (el === -1) {
     return id
